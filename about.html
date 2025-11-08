@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://bustime.sg/about.html" />
+    
+    <!-- SEO Meta Tags -->
+    <title>About SG Bus Time - Features and Mission</title>
+    <meta name="description" content="Learn more about SG Bus Time, a real-time bus arrival application for Singapore. Discover its key features, how it works, and the mission behind the app." />
+    <meta name="author" content="SG Bus Time" />
+    <meta name="keywords" content="About SG Bus Time, SGBUSTIME, Singapore Bus App, Bus Timings, LTA DataMall" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-dark': '#1a202c',
+              'brand-dark-2': '#2d3748',
+              'brand-dark-3': '#4a5568',
+              'brand-accent': '#4299e1',
+              'brand-text': '#e2e8f0',
+              'brand-text-dim': '#a0aec0',
+              'load-green': '#568203',
+              'load-yellow': '#f6e05e',
+              'load-red': '#f56565',
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-brand-dark text-brand-text font-sans antialiased">
+    <div class="flex flex-col min-h-screen">
+      <div class="w-full max-w-2xl mx-auto flex-grow p-4 sm:p-6">
+        <header class="flex justify-between items-center mb-6">
+            <h1 class="text-3xl font-bold text-brand-text">About This App</h1>
+             <a 
+                href="/" 
+                class="flex items-center gap-2 px-4 py-2 bg-brand-dark-2 hover:bg-brand-dark-3 text-brand-text-dim hover:text-brand-text font-semibold rounded-lg shadow-md transition-colors">
+                <span>Back</span>
+            </a>
+        </header>
+        <main>
+            <div class="text-brand-text-dim space-y-8">
+                <section id="features">
+                    <h2 class="text-2xl font-bold text-center text-brand-text mb-4">Key Features</h2>
+                    <ul class="space-y-3 list-disc list-inside bg-brand-dark-2 p-6 rounded-lg">
+                        <li><strong class="text-brand-text">Live Bus Timings:</strong> Get arrival estimates for the next three buses for every service.</li>
+                        <li><strong class="text-brand-text">Nearby Stops:</strong> Automatically detects bus stops within a 2km radius using your device's GPS.</li>
+                        <li><strong class="text-brand-text">Interactive Map:</strong> Visualize your location and nearby bus stops on a map for easy navigation.</li>
+                        <li><strong class="text-brand-text">Instant Refresh:</strong> Update arrival times with a single tap to get the latest data.</li>
+                        <li><strong class="text-brand-text">Mobile-Friendly:</strong> A clean, dark-mode interface that's easy to read day or night.</li>
+                    </ul>
+                </section>
+                
+                <section id="how-it-works">
+                     <h2 class="text-2xl font-bold text-center text-brand-text mb-4">How It Works</h2>
+                     <ol class="list-decimal list-inside space-y-3 bg-brand-dark-2 p-6 rounded-lg">
+                        <li><strong class="text-brand-text">Allow Location Access:</strong> For the best experience, grant permission to use your location.</li>
+                        <li><strong class="text-brand-text">View Nearby Stops:</strong> The app will immediately display a list of the closest bus stops.</li>
+                        <li><strong class="text-brand-text">Check Timings:</strong> See upcoming bus arrivals at a glance for each stop.</li>
+                     </ol>
+                </section>
+
+                <section id="about-us">
+                    <h2 class="text-2xl font-bold text-center text-brand-text mb-4">About Us</h2>
+                    <div class="space-y-4 bg-brand-dark-2 p-6 rounded-lg">
+                        <p>
+                            <strong>SG Bus Time</strong> was born from a simple idea: to make bus travel in Singapore easier and more predictable for everyone. We are a team of passionate developers and daily commuters who understand the frustration of missing a bus by seconds or waiting endlessly without knowing when it will arrive.
+                        </p>
+                        <p>
+                            Our mission is to provide a fast, reliable, and user-friendly web application that delivers real-time bus arrival information directly to your fingertips. We believe that by leveraging the power of open data from the Land Transport Authority (LTA), we can help you plan your journey better, reduce waiting times, and make your daily commute a little less stressful.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </main>
+      </div>
+      <footer class="text-center p-4 text-brand-text-dim border-t border-brand-dark-2">
+          <div class="text-xs">
+            <p>&copy; 2024 SG Bus Time. Your reliable guide for real-time bus arrival information in Singapore.</p>
+            <p class="mt-1">Bus data provided by LTA DataMall. This application is not affiliated with LTA.</p>
+          </div>
+      </footer>
+    </div>
+  </body>
+</html>
